@@ -15,7 +15,7 @@ dotenv.config()
 const stripe = Stripe(process.env.STRIPE_SECRET);
 mongoose.connect(process.env.MONGO_URL).then(() => console.log("db connected")).catch((err) => console.log(err));
 
-const endpointSecret = "whsec_uLOhE2Qo1XdD87Y571rkBizD2EYKf9eb";
+const endpointSecret = "whsec_eJh3N0jNhcXuWNL671F7qVjS6A4tWoWp";
 
 
 
